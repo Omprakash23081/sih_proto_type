@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1 class="headline"> Hellow </h1>
+    <section class="main_login_content">
+       
+        <div class="box_for_login">
+            <div class="user">
+               
+                <input type="radio" id="box_student" name="person">
+                <label for="box_student" > Student</label>
+                
+                <input type="radio" id="box_parent" name="person">
+                <label for="box_parent" > Parent</label>
+            </div>
+            <div class="user_data">
+                <label for="USERNAME" name ="user name is " class="label">User Name</label >
+                <input type="text" id="USERNAME" placeholder="USERNAME" class="input" required/>
+                <label for="password" name ="password is " class="label"> Password</label>
+                <input type="password" id="password" placeholder="PASSWORD" class="input"/>
+            </div>
+            <div class="capcha_contant">
+                <div id="captcha_value"></div>
+                <input type="text" id="captcha_Enter" placeholder="Enter bove Code" class="input"/>
+            </div>
+            
+            <div id="forgrt_pass">
+                <a href="abc.com">Forgot Password ?</a>
+            </div>
+
+            <div id="butten">
+                <button>LOGIN</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
