@@ -25,7 +25,7 @@
  /* background-color: #ff5e08;
 background-image: linear-gradient(180deg, #ff5e08 0%, #e2ddcb 55%, #18e021 100%); */
 background-color: #ff5e08;
-  background-image: linear-gradient(50deg, #ff5e08 0%, #f5f3ee 51%, #18e021 100%);
+  background-image: linear-gradient(50deg, #ff5e08cf 0%, #f5f3ee 51%, #18e022d1 100%);
   
   ;
   box-sizing: border-box;
@@ -270,7 +270,7 @@ background-color: #ff5e08;
   .solutions_navigation:hover .box2{
     display: block;
     display: flex;
-    top: 90px;
+    top: 75px;
     background-color: rgb(127, 255, 212) !important;
   }
   .box2{
@@ -441,4 +441,7 @@ background-color: #ff5e08;
   }
   .languages:hover{
   color: #df0f0fe3;
+  }
+  .body{
+    background-color: #07edb369;
   }

@@ -6,7 +6,7 @@
 
 body {
     background-color: rgba(240, 248, 255, 0.878);
-    background-image: url("Lofi-Anime-Manga-Series-HD-Desktop-Wallpaper-109771.jpg");
+    background-image: url("ai-generated-a-tranquil-japanese-garden-adorned-with-cherry-blossoms-fantasy-landscape-anime-or-cartoon-style-seamless-looping-4k-time-lapse-virtual-animation-background-video.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
@@ -76,14 +76,14 @@ body {
     gap: 0.4rem;
 }
 
-.box_for_login :hover {
+/* .box_for_login :hover {
     z-index: -40px;
-    width: 60%;
+    width: 90%;
 }
 
 .main_login_content :hover {
-    box-shadow: 8px 1px 8px;
-}
+    /* box-shadow: 8px 1px 8px; 
+} */
 .label{
    font-size: 1.5rem;
    margin-left: 30px;
@@ -104,5 +104,5 @@ color: white;
  display: flex;
  justify-content: center;
  background-color: rgba(61, 61, 194, 0.25);
- 
+ /* color: white; */
 }
