@@ -33,5 +33,24 @@ function nextSlide() {
 // Autoplay functionality
 setInterval(nextSlide, 3000); // Change slide every 3 seconds
 
-
+// JavaScript to trigger animations when elements come into view
+document.addEventListener('DOMContentLoaded', function () {
+    const cards = document.querySelectorAll('.case-study-card');
+  
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-visible');
+        }
+      });
+    }, {
+      threshold: 0.2 // Trigger animation when 20% of the element is visible
+    });
+  
+    // Observe each card
+    cards.forEach(card => {
+      observer.observe(card);
+    });
+  });
+  
 
