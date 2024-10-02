@@ -680,7 +680,7 @@ p {
   color: white;
   display: flex;
   justify-content: center;
-  opacity: 0;
+  opacity: 0; 
   animation: fadeIn 3s forwards;
 }
 footer {
