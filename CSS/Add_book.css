@@ -1,0 +1,115 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Changed font family */
+    background-color: #f7f7f7; /* Changed background color */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e8651;
+}
+
+/* Container Styles */
+
+.container {
+    width: 400px; /* Increased max-width */
+    background: #fff;
+    padding: 30px; /* Increased padding */
+    border-radius: 12px; /* Increased border radius */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading Styles */
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin bottom */
+    font-size: 36px; /* Increased font size */
+    font-weight: bold; /* Added font weight */
+    color: #3498db; /* Changed heading color */
+}
+
+/* Form Styles */
+
+.add-book-form {
+    margin-bottom: 30px; /* Increased margin bottom */
+    display: flex;
+    flex-direction: column; /* Changed to vertical layout */
+    align-items: center;
+}
+
+.add-book-form input {
+    margin: 10px 0; /* Changed margin */
+    padding: 10px; /* Increased padding */
+    flex: 1;
+    border: 2px solid #ccc; /* Increased border width */
+    border-radius: 10px; /* Increased border radius */
+}
+
+.add-book-form input:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+}
+
+.add-book-form button {
+    padding: 10px 20px; /* Increased padding */
+    border: none;
+    border-radius: 10px; /* Increased border radius */
+    background-color: #2ecc71; /* Changed background color */
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-book-form button:hover {
+    background-color: #1e8651; /* Changed hover background color */
+}
+
+/* Book List Styles */
+
+.book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list li {
+    margin: 15px 0; /* Increased margin */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px; /* Increased padding */
+    border: 2px solid #ddd; /* Increased border width */
+    border-radius: 10px; /* Increased border radius */
+    transition: background-color 0.2s ease;
+}
+
+.book-list li:hover {
+    background-color: #f5f5f5; /* Changed hover background color */
+}
+
+/* Status Styles */
+
+.available {
+    color: #2ecc71; /* Changed available color */
+}
+
+.borrowed {
+    color: #e74c3c; /* Changed borrowed color */
+}
+.name{
+    font-size: 18px;
+    background-color: #3498db52;
+  
+    position: absolute;
+    top: 30px;
+}
